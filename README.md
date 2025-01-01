@@ -1,7 +1,3 @@
-Here’s an updated version of the content with a table of contents and numbered sections:
-
----
-
 # RetailNova Inc.: Customer Segmentation and Marketing Optimization  
 **Customer Segmentation using KMeans Clustering**
 
@@ -56,14 +52,14 @@ The goal is to classify customers into distinct groups based on their purchasing
 
 To ensure the dataset's accuracy and reliability, several preprocessing steps were conducted:  
 - **Handling Missing Values**: Rows with missing customer IDs were removed, as these are critical for customer segmentation.  
-  [View Code](https://github.com/FOyelude/Customer-Segmentation-using-KMeans-Clustering/blob/main/Kmeas%20Classifiction.ipynb#L5)  
+  [View Code](https://github.com/FOyelude/Customer-Segmentation-using-KMeans-Clustering/blob/main/Kmeans%20Classification%20project.ipynbL5)  
 
 - **Removing Duplicates**: Duplicate transactions were identified and eliminated to prevent inflation of purchase frequency for certain customers.  
 
 - **Invalid Data Removal**: Null or incomplete transactions were filtered out to ensure the dataset's validity.  
 
 - **Outlier Detection and Removal**: After RFM analysis, customers with abnormal purchasing behaviour (e.g., extremely high-frequency buyers, negative quantities, or returns) were identified as outliers. These were separated for further, specific analysis.  
-  [View Code](https://github.com/FOyelude/Customer-Segmentation-using-KMeans-Clustering/blob/main/Kmeas%20Classifiction.ipynb#L27)
+  [View Code](https://github.com/FOyelude/Customer-Segmentation-using-KMeans-Clustering/blob/main/Kmeans%20Classification%20project.ipynb#L27)
 
 ---
 
@@ -183,6 +179,12 @@ Each segment was characterized by distinct purchasing patterns, allowing for tar
 
 ---
 
+Below is the **distribution** of the various segments: 
+
+![image](https://github.com/user-attachments/assets/7fc4c539-c7e1-4953-9f24-28c489b880e4)
+
+As seen above, **occasional customers** make up a large portion of the customer base. Converting a significant number of them into **frequent spenders** will greatly boost sales.
+
 ## 8. **Conclusion**
 
 This segmentation will allow for targeted marketing strategies that cater to the needs of each customer group. The outliers, who behave significantly different from the majority, were given special focus to either increase their value (via upselling) or re-engage them (via ads and discounts). By implementing these strategies, we expect increased customer retention, higher average order values, and improved overall sales.
@@ -190,4 +192,4 @@ This segmentation will allow for targeted marketing strategies that cater to the
 This analysis has provided a clear roadmap for personalized customer engagement and highlights the importance of RFM analysis in driving data-driven marketing strategies. 
 
 ---
-[CLICK HERE](https://github.com/FOyelude/Customer-Segmentation-using-KMeans-Clustering/blob/main/Kmeas%20Classifiction.ipynb) for the full code
+[CLICK HERE](https://github.com/FOyelude/Customer-Segmentation-using-KMeans-Clustering/blob/main/Kmeans%20Classification%20project.ipynb) for the full code
